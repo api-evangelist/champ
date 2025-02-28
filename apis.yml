@@ -2,15 +2,952 @@ aid: champ
 url: >-
   https://raw.githubusercontent.com/api-evangelist/champ/refs/heads/main/apis.yml
 apis:
-  - aid: champ:champ
-    name: CHAMP
-    tags:
-      - API
-    humanURL: ' https://developer.champ.aero/'
+  - aid: champ:cargospot-acceptance-api
+    name: Cargospot Acceptance API
+    description: >-
+      Cargospot AcceptanceAPI DescriptionAllows you to manage acceptance related
+      transactions in Cargospot.
+    humanURL: https://developer.champ.aero/docs/csp-acceptance-api/1/overview
+    tags: []
     properties:
-      - url: ' https://developer.champ.aero/'
+      - type: Documentation
+        url: https://developer.champ.aero/docs/csp-acceptance-api/1/overview
+  - aid: champ:cargospot-active-allotments-api
+    name: Cargospot Active Allotments API
+    description: >-
+      Cargospot Active AllotmentsAPI DescriptionAllows you to manage active
+      allotments in Cargospot.
+    humanURL: https://developer.champ.aero/docs/csp-active-allotment-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: https://developer.champ.aero/docs/csp-active-allotment-api/1/overview
+  - aid: champ:cargospot-agent-air-waybill-stock-api
+    name: Cargospot Agent Air Waybill Stock API
+    description: >-
+      Cargospot Agent Air Waybill StockAPI DescriptionAllows you to manage agent
+      air waybill stock related transactions in Cargospot.
+    humanURL: https://developer.champ.aero/docs/cargospot-agent-stock-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: https://developer.champ.aero/docs/cargospot-agent-stock-api/1/overview
+  - aid: champ:price-class-api
+    name: Price Class API
+    description: >-
+      Price Class APIAPI DescriptionThis service is to manage price classes in
+      Cargospot.
+    humanURL: https://developer.champ.aero/docs/csp-price-class-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: https://developer.champ.aero/docs/csp-price-class-api/1/overview
+      - name: Price Class API
+        description: >-
+          Price Class APIAPI DescriptionThis service is to manage price classes
+          in Cargospot.
+        url: https://developer.champ.aero/docs/csp-price-class-api/1/overview
         type: Documentation
-    description: 'Grow your businessWith CHAMP API Portal '
+      - name: Product API
+        description: >-
+          Product ApiAPI DescriptionThis service is to manage products in
+          Cargospot.
+        url: https://developer.champ.aero/docs/csp-product-api/1/overview
+        type: Documentation
+      - name: Participant API
+        description: >-
+          Participant REST APIThis service allows participant updates to be
+          published from Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/csp-participant-events-api/1/overview
+        type: Documentation
+      - name: Cargospot Air Waybill Notes API
+        description: >-
+          Cargospot Air Waybill Notes APIAPI DescriptionAllows the consumer to
+          create notes related to an air waybill.
+        url: >-
+          https://developer.champ.aero/docs/cargospot-air-waybill-notes-api/1/overview
+        type: Documentation
+      - name: Cargospot Availability & Price API
+        description: 'Cargospot Availability '
+        url: >-
+          https://developer.champ.aero/docs/csp-transport-means-availability-api-standard/1/overview
+        type: Documentation
+      - name: Cargospot Get Flight Capacity API
+        description: >-
+          Cargospot Get Flight CapacityAPI DescriptionThis API allows you to
+          retrieve the capacity details of one or more flight/truck(s) from
+          CHAMP Cargospot. The following details will be returned from Cargospot
+          for the flights passed in the request - flight details (flight number,
+          date, origin, destination, scheduled time of departure, scheduled time
+          of arrival, status etc), maximum / available capacity details (weight,
+          volume, free sale weight, free sale volume, allotment weight and
+          allotment volume) and list of allotments. Allotment information
+          contains allotment code, agent details, station, product, origin,
+          destination, special handling code, allotted weight, volume, ULD
+          count, ULD type, ULD details, available weight, volume, ULD details
+          and release status.
+        url: >-
+          https://developer.champ.aero/docs/csp-transport-means-capacity-api-standard/1/overview
+        type: Documentation
+      - name: Cargospot Handling Invoices API
+        description: >-
+          Cargospot Handling InvoicesAPI DescriptionAllows you to manage general
+          invoices in Cargospot.
+        url: https://developer.champ.aero/docs/csp-handling-invoices-api/1/overview
+        type: Documentation
+      - name: Booking API
+        description: >-
+          Booking APIAPI DescriptionAllows you to manage booking related
+          transactions in Cargospot.
+        url: https://developer.champ.aero/docs/-csp-booking-genaric-api/1/overview
+        type: Documentation
+      - name: Cargospot Manage Delivery API
+        description: >-
+          Cargospot Manage DeliveryAPI DescriptionAllows you to manage shipment
+          delivery process.
+        url: https://developer.champ.aero/docs/csp-delivery-api/1/overview
+        type: Documentation
+      - name: Cargospot e-Invoices from ZATCA API
+        description: >-
+          Cargospot e-Invoices from ZATCAAPI DescriptionManage e-invoices from
+          ZATCA in Cargospot.
+        url: https://developer.champ.aero/docs/csp-invoices-api/1/overview
+        type: Documentation
+      - name: Cargospot Manage Price Info API
+        description: >-
+          Cargospot Manage Price InfoAPI DescriptionProvides list of APIs
+          related to pricing.
+        url: >-
+          https://developer.champ.aero/docs/csp-pricing-v1-api-standard/1/overview
+        type: Documentation
+      - name: Cargospot Master Allotments API
+        description: >-
+          Cargospot Master AllotmentsAPI DescriptionAllows you to manage master
+          allotment related transactions in Cargospot.
+        url: https://developer.champ.aero/docs/csp-master-alotment-api/1/overview
+        type: Documentation
+      - name: Cargospot Operational Flight and Truck API
+        description: >-
+          Cargospot Operational Flight/Truck APIsAPI DescriptionAllows you to
+          search and retrieve flight/truck details from Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/cargospot-transport-means-api/1/overview
+        type: Documentation
+      - name: Cargospot Payment API
+        description: >-
+          Cargospot Payment APIAPI DescriptionAllows you to create a payment
+          record in Cargospot.
+        url: https://developer.champ.aero/docs/csp-payment-generic-api/1/overview
+        type: Documentation
+      - name: Cargospot Pickup API
+        description: >-
+          Cargospot PickupAPI DescriptionAllows you to manage pickup related
+          transactions in Cargospot.
+        url: https://developer.champ.aero/docs/csp-pickup-api-v1/1/overview
+        type: Documentation
+      - name: Price Class API
+        description: >-
+          Price Class APIAPI DescriptionThis service is to manage price classes
+          in Cargospot.
+        url: https://developer.champ.aero/docs/csp-price-class-api/1/overview
+        type: Documentation
+      - name: Product API
+        description: >-
+          Product ApiAPI DescriptionThis service is to manage products in
+          Cargospot.
+        url: https://developer.champ.aero/docs/csp-product-api/1/overview
+        type: Documentation
+      - name: Publish Ad-Hoc Price Details API
+        description: >-
+          Publish Ad-Hoc Price DetailsThis service allows ad-hoc price updates
+          to be published from Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/-csp-pricing-ad-hoc-price-events-api/1/overview
+        type: Documentation
+      - name: Cargospot Publish Bookings API
+        description: >-
+          Cargospot Publish Bookings (outbound)This service allows booking
+          updates to be published from Cargospot.
+        url: https://developer.champ.aero/docs/-csp-booking-events-api/1/overview
+        type: Documentation
+      - name: Participant API
+        description: >-
+          Participant REST APIThis service allows participant updates to be
+          published from Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/csp-participant-events-api/1/overview
+        type: Documentation
+      - name: Cargospot Scale Weight API
+        description: >-
+          Cargospot Scale Weight APIAPI DescriptionAllows the submission of the
+          weight of a ULD
+        url: >-
+          https://developer.champ.aero/docs/cargospot-buildup-scale-weight-v4-api/1/overview
+        type: Documentation
+      - name: Cargospot Schedule APIs
+        description: >-
+          Cargospot Schedule APIsAPI DescriptionAllows you to manage
+          flight/truck schedule details in Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/-cargospot-transport-means-schedules-api/1/overview
+        type: Documentation
+      - name: Cargospot Search Sell Prices API
+        description: >-
+          Cargospot Search Sell PricesAPI DescriptionAllows you to search and
+          retrieve list of sell prices in Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/cargospot-manage-sell-price-api/1/overview
+        type: Documentation
+      - name: Cargospot Search Unit Load Devices API
+        description: >-
+          Cargospot Search Unit Load DevicesAPI DescriptionAllows you to search
+          unit load devices in Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/csp-unit-load-devices-handling-api/1/overview
+        type: Documentation
+      - name: Cargospot Track and Trace API
+        description: >-
+          Cargospot Track and Trace REST APIAPI DescriptionThis is a REST API
+          that allows access to track and trace information from CHAMP
+          Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/csp-track-and-trace-api-v1-standard/1/overview
+        type: Documentation
+      - name: Cargospot Update Dimension Details for a Shipment API
+        description: >-
+          Cargospot Update Dimension Details for a ShipmentAPI DescriptionAllows
+          you to update the dimension details in Cargospot for an air waybill.
+        url: >-
+          https://developer.champ.aero/docs/cargospot-update-dimension-details-for-a-shipment-api/1/overview
+        type: Documentation
+      - name: Cargospot Update Driver Details For Acceptance API
+        description: >-
+          Cargospot Update Driver Details For AcceptanceAPI DescriptionAllows
+          you to assign the driver details from an acceptance perspective in
+          Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/cargospot-driver-update-for-acceptance-api/1/overview
+        type: Documentation
+      - name: Cargospot Update Flight and Truck Capacity API
+        description: >-
+          Cargospot Update Flight/Truck CapacityAPI DescriptionAllows you to
+          update the transport means capacity in Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/csp-transport-means-api-v1-standard/1/overview
+        type: Documentation
+      - name: Cargospot Update ULD Acceptance Details API
+        description: >-
+          Cargospot Update ULD Acceptance DetailsAPI DescriptionAllows you to
+          manage acceptance related transactions in Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/cargospot-update-uld-acceptance-details-api/1/overview
+        type: Documentation
+      - name: Cargospot Update Warehouse Location API
+        description: >-
+          Cargospot Update Warehouse Location APIAPI DescriptionAllows you to
+          manage shipment location in warehouse.
+        url: https://developer.champ.aero/docs/csp-warehouse-api/1/overview
+        type: Documentation
+      - name: TGS House Air Waybill Declarations API
+        description: >-
+          TGS House Air Waybill DeclarationsThis API allows consumers to submit
+          House Air Waybill Declarations to CHAMP Traxon Global Security (TGS).
+        url: https://developer.champ.aero/docs/tgs-hawb-declarations-api/1/overview
+        type: Documentation
+  - aid: champ:product-api
+    name: Product API
+    description: Product ApiAPI DescriptionThis service is to manage products in Cargospot.
+    humanURL: https://developer.champ.aero/docs/csp-product-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: https://developer.champ.aero/docs/csp-product-api/1/overview
+  - aid: champ:participant-api
+    name: Participant API
+    description: >-
+      Participant REST APIThis service allows participant updates to be
+      published from Cargospot.
+    humanURL: https://developer.champ.aero/docs/csp-participant-events-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: >-
+          https://developer.champ.aero/docs/csp-participant-events-api/1/overview
+      - name: Participant API
+        description: >-
+          Participant REST APIThis service allows participant updates to be
+          published from Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/csp-participant-events-api/1/overview
+        type: Documentation
+      - name: Cargospot Air Waybill Notes API
+        description: >-
+          Cargospot Air Waybill Notes APIAPI DescriptionAllows the consumer to
+          create notes related to an air waybill.
+        url: >-
+          https://developer.champ.aero/docs/cargospot-air-waybill-notes-api/1/overview
+        type: Documentation
+      - name: Cargospot Availability & Price API
+        description: 'Cargospot Availability '
+        url: >-
+          https://developer.champ.aero/docs/csp-transport-means-availability-api-standard/1/overview
+        type: Documentation
+      - name: Cargospot Get Flight Capacity API
+        description: >-
+          Cargospot Get Flight CapacityAPI DescriptionThis API allows you to
+          retrieve the capacity details of one or more flight/truck(s) from
+          CHAMP Cargospot. The following details will be returned from Cargospot
+          for the flights passed in the request - flight details (flight number,
+          date, origin, destination, scheduled time of departure, scheduled time
+          of arrival, status etc), maximum / available capacity details (weight,
+          volume, free sale weight, free sale volume, allotment weight and
+          allotment volume) and list of allotments. Allotment information
+          contains allotment code, agent details, station, product, origin,
+          destination, special handling code, allotted weight, volume, ULD
+          count, ULD type, ULD details, available weight, volume, ULD details
+          and release status.
+        url: >-
+          https://developer.champ.aero/docs/csp-transport-means-capacity-api-standard/1/overview
+        type: Documentation
+      - name: Cargospot Handling Invoices API
+        description: >-
+          Cargospot Handling InvoicesAPI DescriptionAllows you to manage general
+          invoices in Cargospot.
+        url: https://developer.champ.aero/docs/csp-handling-invoices-api/1/overview
+        type: Documentation
+      - name: Booking API
+        description: >-
+          Booking APIAPI DescriptionAllows you to manage booking related
+          transactions in Cargospot.
+        url: https://developer.champ.aero/docs/-csp-booking-genaric-api/1/overview
+        type: Documentation
+      - name: Cargospot Manage Delivery API
+        description: >-
+          Cargospot Manage DeliveryAPI DescriptionAllows you to manage shipment
+          delivery process.
+        url: https://developer.champ.aero/docs/csp-delivery-api/1/overview
+        type: Documentation
+      - name: Cargospot e-Invoices from ZATCA API
+        description: >-
+          Cargospot e-Invoices from ZATCAAPI DescriptionManage e-invoices from
+          ZATCA in Cargospot.
+        url: https://developer.champ.aero/docs/csp-invoices-api/1/overview
+        type: Documentation
+      - name: Cargospot Manage Price Info API
+        description: >-
+          Cargospot Manage Price InfoAPI DescriptionProvides list of APIs
+          related to pricing.
+        url: >-
+          https://developer.champ.aero/docs/csp-pricing-v1-api-standard/1/overview
+        type: Documentation
+      - name: Cargospot Master Allotments API
+        description: >-
+          Cargospot Master AllotmentsAPI DescriptionAllows you to manage master
+          allotment related transactions in Cargospot.
+        url: https://developer.champ.aero/docs/csp-master-alotment-api/1/overview
+        type: Documentation
+      - name: Cargospot Operational Flight and Truck API
+        description: >-
+          Cargospot Operational Flight/Truck APIsAPI DescriptionAllows you to
+          search and retrieve flight/truck details from Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/cargospot-transport-means-api/1/overview
+        type: Documentation
+      - name: Cargospot Payment API
+        description: >-
+          Cargospot Payment APIAPI DescriptionAllows you to create a payment
+          record in Cargospot.
+        url: https://developer.champ.aero/docs/csp-payment-generic-api/1/overview
+        type: Documentation
+      - name: Cargospot Pickup API
+        description: >-
+          Cargospot PickupAPI DescriptionAllows you to manage pickup related
+          transactions in Cargospot.
+        url: https://developer.champ.aero/docs/csp-pickup-api-v1/1/overview
+        type: Documentation
+      - name: Price Class API
+        description: >-
+          Price Class APIAPI DescriptionThis service is to manage price classes
+          in Cargospot.
+        url: https://developer.champ.aero/docs/csp-price-class-api/1/overview
+        type: Documentation
+      - name: Product API
+        description: >-
+          Product ApiAPI DescriptionThis service is to manage products in
+          Cargospot.
+        url: https://developer.champ.aero/docs/csp-product-api/1/overview
+        type: Documentation
+      - name: Publish Ad-Hoc Price Details API
+        description: >-
+          Publish Ad-Hoc Price DetailsThis service allows ad-hoc price updates
+          to be published from Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/-csp-pricing-ad-hoc-price-events-api/1/overview
+        type: Documentation
+      - name: Cargospot Publish Bookings API
+        description: >-
+          Cargospot Publish Bookings (outbound)This service allows booking
+          updates to be published from Cargospot.
+        url: https://developer.champ.aero/docs/-csp-booking-events-api/1/overview
+        type: Documentation
+      - name: Participant API
+        description: >-
+          Participant REST APIThis service allows participant updates to be
+          published from Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/csp-participant-events-api/1/overview
+        type: Documentation
+      - name: Cargospot Scale Weight API
+        description: >-
+          Cargospot Scale Weight APIAPI DescriptionAllows the submission of the
+          weight of a ULD
+        url: >-
+          https://developer.champ.aero/docs/cargospot-buildup-scale-weight-v4-api/1/overview
+        type: Documentation
+      - name: Cargospot Schedule APIs
+        description: >-
+          Cargospot Schedule APIsAPI DescriptionAllows you to manage
+          flight/truck schedule details in Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/-cargospot-transport-means-schedules-api/1/overview
+        type: Documentation
+      - name: Cargospot Search Sell Prices API
+        description: >-
+          Cargospot Search Sell PricesAPI DescriptionAllows you to search and
+          retrieve list of sell prices in Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/cargospot-manage-sell-price-api/1/overview
+        type: Documentation
+      - name: Cargospot Search Unit Load Devices API
+        description: >-
+          Cargospot Search Unit Load DevicesAPI DescriptionAllows you to search
+          unit load devices in Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/csp-unit-load-devices-handling-api/1/overview
+        type: Documentation
+      - name: Cargospot Track and Trace API
+        description: >-
+          Cargospot Track and Trace REST APIAPI DescriptionThis is a REST API
+          that allows access to track and trace information from CHAMP
+          Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/csp-track-and-trace-api-v1-standard/1/overview
+        type: Documentation
+      - name: Cargospot Update Dimension Details for a Shipment API
+        description: >-
+          Cargospot Update Dimension Details for a ShipmentAPI DescriptionAllows
+          you to update the dimension details in Cargospot for an air waybill.
+        url: >-
+          https://developer.champ.aero/docs/cargospot-update-dimension-details-for-a-shipment-api/1/overview
+        type: Documentation
+      - name: Cargospot Update Driver Details For Acceptance API
+        description: >-
+          Cargospot Update Driver Details For AcceptanceAPI DescriptionAllows
+          you to assign the driver details from an acceptance perspective in
+          Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/cargospot-driver-update-for-acceptance-api/1/overview
+        type: Documentation
+      - name: Cargospot Update Flight and Truck Capacity API
+        description: >-
+          Cargospot Update Flight/Truck CapacityAPI DescriptionAllows you to
+          update the transport means capacity in Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/csp-transport-means-api-v1-standard/1/overview
+        type: Documentation
+      - name: Cargospot Update ULD Acceptance Details API
+        description: >-
+          Cargospot Update ULD Acceptance DetailsAPI DescriptionAllows you to
+          manage acceptance related transactions in Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/cargospot-update-uld-acceptance-details-api/1/overview
+        type: Documentation
+      - name: Cargospot Update Warehouse Location API
+        description: >-
+          Cargospot Update Warehouse Location APIAPI DescriptionAllows you to
+          manage shipment location in warehouse.
+        url: https://developer.champ.aero/docs/csp-warehouse-api/1/overview
+        type: Documentation
+      - name: TGS House Air Waybill Declarations API
+        description: >-
+          TGS House Air Waybill DeclarationsThis API allows consumers to submit
+          House Air Waybill Declarations to CHAMP Traxon Global Security (TGS).
+        url: https://developer.champ.aero/docs/tgs-hawb-declarations-api/1/overview
+        type: Documentation
+  - aid: champ:cargospot-air-waybill-notes-api
+    name: Cargospot Air Waybill Notes API
+    description: >-
+      Cargospot Air Waybill Notes APIAPI DescriptionAllows the consumer to
+      create notes related to an air waybill.
+    humanURL: >-
+      https://developer.champ.aero/docs/cargospot-air-waybill-notes-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: >-
+          https://developer.champ.aero/docs/cargospot-air-waybill-notes-api/1/overview
+  - aid: champ:cargospot-availability-and-price-api
+    name: Cargospot Availability and Price API
+    description: 'Cargospot Availability '
+    humanURL: >-
+      https://developer.champ.aero/docs/csp-transport-means-availability-api-standard/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: >-
+          https://developer.champ.aero/docs/csp-transport-means-availability-api-standard/1/overview
+  - aid: champ:cargospot-get-flight-capacity-api
+    name: Cargospot Get Flight Capacity API
+    description: >-
+      Cargospot Get Flight CapacityAPI DescriptionThis API allows you to
+      retrieve the capacity details of one or more flight/truck(s) from CHAMP
+      Cargospot. The following details will be returned from Cargospot for the
+      flights passed in the request - flight details (flight number, date,
+      origin, destination, scheduled time of departure, scheduled time of
+      arrival, status etc), maximum / available capacity details (weight,
+      volume, free sale weight, free sale volume, allotment weight and allotment
+      volume) and list of allotments. Allotment information contains allotment
+      code, agent details, station, product, origin, destination, special
+      handling code, allotted weight, volume, ULD count, ULD type, ULD details,
+      available weight, volume, ULD details and release status.
+    humanURL: >-
+      https://developer.champ.aero/docs/csp-transport-means-capacity-api-standard/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: >-
+          https://developer.champ.aero/docs/csp-transport-means-capacity-api-standard/1/overview
+  - aid: champ:cargospot-handling-invoices-api
+    name: Cargospot Handling Invoices API
+    description: >-
+      Cargospot Handling InvoicesAPI DescriptionAllows you to manage general
+      invoices in Cargospot.
+    humanURL: https://developer.champ.aero/docs/csp-handling-invoices-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: https://developer.champ.aero/docs/csp-handling-invoices-api/1/overview
+  - aid: champ:booking-api
+    name: Booking API
+    description: >-
+      Booking APIAPI DescriptionAllows you to manage booking related
+      transactions in Cargospot.
+    humanURL: https://developer.champ.aero/docs/-csp-booking-genaric-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: https://developer.champ.aero/docs/-csp-booking-genaric-api/1/overview
+      - name: Booking API
+        description: >-
+          Booking APIAPI DescriptionAllows you to manage booking related
+          transactions in Cargospot.
+        url: https://developer.champ.aero/docs/-csp-booking-genaric-api/1/overview
+        type: Documentation
+      - name: Cargospot Manage Delivery API
+        description: >-
+          Cargospot Manage DeliveryAPI DescriptionAllows you to manage shipment
+          delivery process.
+        url: https://developer.champ.aero/docs/csp-delivery-api/1/overview
+        type: Documentation
+      - name: Cargospot e-Invoices from ZATCA API
+        description: >-
+          Cargospot e-Invoices from ZATCAAPI DescriptionManage e-invoices from
+          ZATCA in Cargospot.
+        url: https://developer.champ.aero/docs/csp-invoices-api/1/overview
+        type: Documentation
+      - name: Cargospot Manage Price Info API
+        description: >-
+          Cargospot Manage Price InfoAPI DescriptionProvides list of APIs
+          related to pricing.
+        url: >-
+          https://developer.champ.aero/docs/csp-pricing-v1-api-standard/1/overview
+        type: Documentation
+      - name: Cargospot Master Allotments API
+        description: >-
+          Cargospot Master AllotmentsAPI DescriptionAllows you to manage master
+          allotment related transactions in Cargospot.
+        url: https://developer.champ.aero/docs/csp-master-alotment-api/1/overview
+        type: Documentation
+      - name: Cargospot Operational Flight and Truck API
+        description: >-
+          Cargospot Operational Flight/Truck APIsAPI DescriptionAllows you to
+          search and retrieve flight/truck details from Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/cargospot-transport-means-api/1/overview
+        type: Documentation
+      - name: Cargospot Payment API
+        description: >-
+          Cargospot Payment APIAPI DescriptionAllows you to create a payment
+          record in Cargospot.
+        url: https://developer.champ.aero/docs/csp-payment-generic-api/1/overview
+        type: Documentation
+      - name: Cargospot Pickup API
+        description: >-
+          Cargospot PickupAPI DescriptionAllows you to manage pickup related
+          transactions in Cargospot.
+        url: https://developer.champ.aero/docs/csp-pickup-api-v1/1/overview
+        type: Documentation
+      - name: Price Class API
+        description: >-
+          Price Class APIAPI DescriptionThis service is to manage price classes
+          in Cargospot.
+        url: https://developer.champ.aero/docs/csp-price-class-api/1/overview
+        type: Documentation
+      - name: Product API
+        description: >-
+          Product ApiAPI DescriptionThis service is to manage products in
+          Cargospot.
+        url: https://developer.champ.aero/docs/csp-product-api/1/overview
+        type: Documentation
+      - name: Publish Ad-Hoc Price Details API
+        description: >-
+          Publish Ad-Hoc Price DetailsThis service allows ad-hoc price updates
+          to be published from Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/-csp-pricing-ad-hoc-price-events-api/1/overview
+        type: Documentation
+      - name: Cargospot Publish Bookings API
+        description: >-
+          Cargospot Publish Bookings (outbound)This service allows booking
+          updates to be published from Cargospot.
+        url: https://developer.champ.aero/docs/-csp-booking-events-api/1/overview
+        type: Documentation
+      - name: Participant API
+        description: >-
+          Participant REST APIThis service allows participant updates to be
+          published from Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/csp-participant-events-api/1/overview
+        type: Documentation
+      - name: Cargospot Scale Weight API
+        description: >-
+          Cargospot Scale Weight APIAPI DescriptionAllows the submission of the
+          weight of a ULD
+        url: >-
+          https://developer.champ.aero/docs/cargospot-buildup-scale-weight-v4-api/1/overview
+        type: Documentation
+      - name: Cargospot Schedule APIs
+        description: >-
+          Cargospot Schedule APIsAPI DescriptionAllows you to manage
+          flight/truck schedule details in Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/-cargospot-transport-means-schedules-api/1/overview
+        type: Documentation
+      - name: Cargospot Search Sell Prices API
+        description: >-
+          Cargospot Search Sell PricesAPI DescriptionAllows you to search and
+          retrieve list of sell prices in Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/cargospot-manage-sell-price-api/1/overview
+        type: Documentation
+      - name: Cargospot Search Unit Load Devices API
+        description: >-
+          Cargospot Search Unit Load DevicesAPI DescriptionAllows you to search
+          unit load devices in Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/csp-unit-load-devices-handling-api/1/overview
+        type: Documentation
+      - name: Cargospot Track and Trace API
+        description: >-
+          Cargospot Track and Trace REST APIAPI DescriptionThis is a REST API
+          that allows access to track and trace information from CHAMP
+          Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/csp-track-and-trace-api-v1-standard/1/overview
+        type: Documentation
+      - name: Cargospot Update Dimension Details for a Shipment API
+        description: >-
+          Cargospot Update Dimension Details for a ShipmentAPI DescriptionAllows
+          you to update the dimension details in Cargospot for an air waybill.
+        url: >-
+          https://developer.champ.aero/docs/cargospot-update-dimension-details-for-a-shipment-api/1/overview
+        type: Documentation
+      - name: Cargospot Update Driver Details For Acceptance API
+        description: >-
+          Cargospot Update Driver Details For AcceptanceAPI DescriptionAllows
+          you to assign the driver details from an acceptance perspective in
+          Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/cargospot-driver-update-for-acceptance-api/1/overview
+        type: Documentation
+      - name: Cargospot Update Flight and Truck Capacity API
+        description: >-
+          Cargospot Update Flight/Truck CapacityAPI DescriptionAllows you to
+          update the transport means capacity in Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/csp-transport-means-api-v1-standard/1/overview
+        type: Documentation
+      - name: Cargospot Update ULD Acceptance Details API
+        description: >-
+          Cargospot Update ULD Acceptance DetailsAPI DescriptionAllows you to
+          manage acceptance related transactions in Cargospot.
+        url: >-
+          https://developer.champ.aero/docs/cargospot-update-uld-acceptance-details-api/1/overview
+        type: Documentation
+      - name: Cargospot Update Warehouse Location API
+        description: >-
+          Cargospot Update Warehouse Location APIAPI DescriptionAllows you to
+          manage shipment location in warehouse.
+        url: https://developer.champ.aero/docs/csp-warehouse-api/1/overview
+        type: Documentation
+      - name: TGS House Air Waybill Declarations API
+        description: >-
+          TGS House Air Waybill DeclarationsThis API allows consumers to submit
+          House Air Waybill Declarations to CHAMP Traxon Global Security (TGS).
+        url: https://developer.champ.aero/docs/tgs-hawb-declarations-api/1/overview
+        type: Documentation
+  - aid: champ:cargospot-manage-delivery-api
+    name: Cargospot Manage Delivery API
+    description: >-
+      Cargospot Manage DeliveryAPI DescriptionAllows you to manage shipment
+      delivery process.
+    humanURL: https://developer.champ.aero/docs/csp-delivery-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: https://developer.champ.aero/docs/csp-delivery-api/1/overview
+  - aid: champ:cargospot-e-invoices-from-zatca-api
+    name: Cargospot e-Invoices from ZATCA API
+    description: >-
+      Cargospot e-Invoices from ZATCAAPI DescriptionManage e-invoices from ZATCA
+      in Cargospot.
+    humanURL: https://developer.champ.aero/docs/csp-invoices-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: https://developer.champ.aero/docs/csp-invoices-api/1/overview
+  - aid: champ:cargospot-manage-price-info-api
+    name: Cargospot Manage Price Info API
+    description: >-
+      Cargospot Manage Price InfoAPI DescriptionProvides list of APIs related to
+      pricing.
+    humanURL: https://developer.champ.aero/docs/csp-pricing-v1-api-standard/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: >-
+          https://developer.champ.aero/docs/csp-pricing-v1-api-standard/1/overview
+  - aid: champ:cargospot-master-allotments-api
+    name: Cargospot Master Allotments API
+    description: >-
+      Cargospot Master AllotmentsAPI DescriptionAllows you to manage master
+      allotment related transactions in Cargospot.
+    humanURL: https://developer.champ.aero/docs/csp-master-alotment-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: https://developer.champ.aero/docs/csp-master-alotment-api/1/overview
+  - aid: champ:cargospot-operational-flight-and-truck-api
+    name: Cargospot Operational Flight and Truck API
+    description: >-
+      Cargospot Operational Flight/Truck APIsAPI DescriptionAllows you to search
+      and retrieve flight/truck details from Cargospot.
+    humanURL: https://developer.champ.aero/docs/cargospot-transport-means-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: >-
+          https://developer.champ.aero/docs/cargospot-transport-means-api/1/overview
+  - aid: champ:cargospot-payment-api
+    name: Cargospot Payment API
+    description: >-
+      Cargospot Payment APIAPI DescriptionAllows you to create a payment record
+      in Cargospot.
+    humanURL: https://developer.champ.aero/docs/csp-payment-generic-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: https://developer.champ.aero/docs/csp-payment-generic-api/1/overview
+  - aid: champ:cargospot-pickup-api
+    name: Cargospot Pickup API
+    description: >-
+      Cargospot PickupAPI DescriptionAllows you to manage pickup related
+      transactions in Cargospot.
+    humanURL: https://developer.champ.aero/docs/csp-pickup-api-v1/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: https://developer.champ.aero/docs/csp-pickup-api-v1/1/overview
+  - aid: champ:price-class-api
+    name: Price Class API
+    description: >-
+      Price Class APIAPI DescriptionThis service is to manage price classes in
+      Cargospot.
+    humanURL: https://developer.champ.aero/docs/csp-price-class-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: https://developer.champ.aero/docs/csp-price-class-api/1/overview
+  - aid: champ:product-api
+    name: Product API
+    description: Product ApiAPI DescriptionThis service is to manage products in Cargospot.
+    humanURL: https://developer.champ.aero/docs/csp-product-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: https://developer.champ.aero/docs/csp-product-api/1/overview
+  - aid: champ:publish-ad-hoc-price-details-api
+    name: Publish Ad-Hoc Price Details API
+    description: >-
+      Publish Ad-Hoc Price DetailsThis service allows ad-hoc price updates to be
+      published from Cargospot.
+    humanURL: >-
+      https://developer.champ.aero/docs/-csp-pricing-ad-hoc-price-events-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: >-
+          https://developer.champ.aero/docs/-csp-pricing-ad-hoc-price-events-api/1/overview
+  - aid: champ:cargospot-publish-bookings-api
+    name: Cargospot Publish Bookings API
+    description: >-
+      Cargospot Publish Bookings (outbound)This service allows booking updates
+      to be published from Cargospot.
+    humanURL: https://developer.champ.aero/docs/-csp-booking-events-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: https://developer.champ.aero/docs/-csp-booking-events-api/1/overview
+  - aid: champ:participant-api
+    name: Participant API
+    description: >-
+      Participant REST APIThis service allows participant updates to be
+      published from Cargospot.
+    humanURL: https://developer.champ.aero/docs/csp-participant-events-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: >-
+          https://developer.champ.aero/docs/csp-participant-events-api/1/overview
+  - aid: champ:cargospot-scale-weight-api
+    name: Cargospot Scale Weight API
+    description: >-
+      Cargospot Scale Weight APIAPI DescriptionAllows the submission of the
+      weight of a ULD
+    humanURL: >-
+      https://developer.champ.aero/docs/cargospot-buildup-scale-weight-v4-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: >-
+          https://developer.champ.aero/docs/cargospot-buildup-scale-weight-v4-api/1/overview
+  - aid: champ:cargospot-schedule-apis
+    name: Cargospot Schedule APIs
+    description: >-
+      Cargospot Schedule APIsAPI DescriptionAllows you to manage flight/truck
+      schedule details in Cargospot.
+    humanURL: >-
+      https://developer.champ.aero/docs/-cargospot-transport-means-schedules-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: >-
+          https://developer.champ.aero/docs/-cargospot-transport-means-schedules-api/1/overview
+  - aid: champ:cargospot-search-sell-prices-api
+    name: Cargospot Search Sell Prices API
+    description: >-
+      Cargospot Search Sell PricesAPI DescriptionAllows you to search and
+      retrieve list of sell prices in Cargospot.
+    humanURL: >-
+      https://developer.champ.aero/docs/cargospot-manage-sell-price-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: >-
+          https://developer.champ.aero/docs/cargospot-manage-sell-price-api/1/overview
+  - aid: champ:cargospot-search-unit-load-devices-api
+    name: Cargospot Search Unit Load Devices API
+    description: >-
+      Cargospot Search Unit Load DevicesAPI DescriptionAllows you to search unit
+      load devices in Cargospot.
+    humanURL: >-
+      https://developer.champ.aero/docs/csp-unit-load-devices-handling-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: >-
+          https://developer.champ.aero/docs/csp-unit-load-devices-handling-api/1/overview
+  - aid: champ:cargospot-track-and-trace-api
+    name: Cargospot Track and Trace API
+    description: >-
+      Cargospot Track and Trace REST APIAPI DescriptionThis is a REST API that
+      allows access to track and trace information from CHAMP Cargospot.
+    humanURL: >-
+      https://developer.champ.aero/docs/csp-track-and-trace-api-v1-standard/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: >-
+          https://developer.champ.aero/docs/csp-track-and-trace-api-v1-standard/1/overview
+  - aid: champ:cargospot-update-dimension-details-for-a-shipment-api
+    name: Cargospot Update Dimension Details for a Shipment API
+    description: >-
+      Cargospot Update Dimension Details for a ShipmentAPI DescriptionAllows you
+      to update the dimension details in Cargospot for an air waybill.
+    humanURL: >-
+      https://developer.champ.aero/docs/cargospot-update-dimension-details-for-a-shipment-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: >-
+          https://developer.champ.aero/docs/cargospot-update-dimension-details-for-a-shipment-api/1/overview
+  - aid: champ:cargospot-update-driver-details-for-acceptance-api
+    name: Cargospot Update Driver Details For Acceptance API
+    description: >-
+      Cargospot Update Driver Details For AcceptanceAPI DescriptionAllows you to
+      assign the driver details from an acceptance perspective in Cargospot.
+    humanURL: >-
+      https://developer.champ.aero/docs/cargospot-driver-update-for-acceptance-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: >-
+          https://developer.champ.aero/docs/cargospot-driver-update-for-acceptance-api/1/overview
+  - aid: champ:cargospot-update-flight-and-truck-capacity-api
+    name: Cargospot Update Flight and Truck Capacity API
+    description: >-
+      Cargospot Update Flight/Truck CapacityAPI DescriptionAllows you to update
+      the transport means capacity in Cargospot.
+    humanURL: >-
+      https://developer.champ.aero/docs/csp-transport-means-api-v1-standard/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: >-
+          https://developer.champ.aero/docs/csp-transport-means-api-v1-standard/1/overview
+  - aid: champ:cargospot-update-uld-acceptance-details-api
+    name: Cargospot Update ULD Acceptance Details API
+    description: >-
+      Cargospot Update ULD Acceptance DetailsAPI DescriptionAllows you to manage
+      acceptance related transactions in Cargospot.
+    humanURL: >-
+      https://developer.champ.aero/docs/cargospot-update-uld-acceptance-details-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: >-
+          https://developer.champ.aero/docs/cargospot-update-uld-acceptance-details-api/1/overview
+  - aid: champ:cargospot-update-warehouse-location-api
+    name: Cargospot Update Warehouse Location API
+    description: >-
+      Cargospot Update Warehouse Location APIAPI DescriptionAllows you to manage
+      shipment location in warehouse.
+    humanURL: https://developer.champ.aero/docs/csp-warehouse-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: https://developer.champ.aero/docs/csp-warehouse-api/1/overview
+  - aid: champ:tgs-house-air-waybill-declarations-api
+    name: TGS House Air Waybill Declarations API
+    description: >-
+      TGS House Air Waybill DeclarationsThis API allows consumers to submit
+      House Air Waybill Declarations to CHAMP Traxon Global Security (TGS).
+    humanURL: https://developer.champ.aero/docs/tgs-hawb-declarations-api/1/overview
+    tags: []
+    properties:
+      - type: Documentation
+        url: https://developer.champ.aero/docs/tgs-hawb-declarations-api/1/overview
 name: CHAMP Cargosystems
 tags:
   - Cargo
@@ -31,3 +968,16 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+common:
+  - name: Home | CHAMP API Developer Portal
+    description: 'null'
+    url: https://developer.champ.aero/
+    type: Portal
+  - name: Get Started | CHAMP API Developer Portal
+    description: 'null'
+    url: https://developer.champ.aero/get-started
+    type: GettingStarted
+  - name: API Partner Program for Cargospot | CHAMP API Developer Portal
+    description: 'null'
+    url: https://developer.champ.aero/api-partner-program-for-cargospot
+    type: Partners
