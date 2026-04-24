@@ -1,22 +1,36 @@
 # CHAMP Cargosystems (champ)
-Champ.aero, also known as CHAMP Cargosystems, is a company that provides comprehensive IT solutions for the air cargo industry, offering a range of software applications and services to manage all aspects of air cargo operations, including booking, handling, accounting, customs clearance, and messaging, primarily through their flagship product called "Cargospot.". 
+
+Champ.aero, also known as CHAMP Cargosystems, is a company that provides comprehensive IT solutions for the air cargo industry, offering a range of software applications and services to manage all aspects of air cargo operations, including booking, handling, accounting, customs clearance, and messaging, primarily through their flagship product called "Cargospot". CHAMP exposes a large catalog of Cargospot and TGS APIs through its developer portal for acceptance, allotments, air waybills, pricing, invoicing, booking, tracking, ULDs, warehouse operations, and more.
 
 **URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/champ/refs/heads/main/apis.yml)
 
 ## Scope
 
-- **Type:** Contract 
-- **Position:** Consuming 
-- **Access:** 3rd-Party 
+- **Type:** Index
+- **Position:** Consumer
+- **Access:** 3rd-Party
+- **x-type:** company
 
-## Tags:
+## Tags
 
- - Cargo, Airlines
+- Air Cargo, Airlines, Booking, Cargo, Cargospot, Freight, Logistics, Tracking
 
 ## Timestamps
 
-- **Created:** 2025-02-17 
-- **Modified:** 2025-02-27 
+- **Created:** 2025-02-17
+- **Modified:** 2026-04-23
+
+## Features
+
+Cargo Booking, Acceptance, Track and Trace, Allotments, Air Waybills (AWB), House Air Waybill Declarations, Pricing, Price Class Management, Handling Invoices, ZATCA e-Invoicing, Payment Processing, Pickup, Delivery, Warehouse Management, Unit Load Device (ULD) Handling, Scale Weight, Flight Capacity, Truck Capacity, Schedules, Participant Events, Event Publishing, Real-Time Tracking, REST API
+
+## Use Cases
+
+Air Cargo Operations Automation, Freight Forwarder Integration, Ground Handler Integration, Airline Cargo Management, e-AWB Digitization, Customs Compliance, ZATCA e-Invoicing Compliance, Revenue Accounting, Capacity Optimization, Pickup and Delivery Coordination, Real-Time Shipment Visibility, Warehouse Operations
+
+## Integrations
+
+Cargospot, CHAMP Traxon Global Systems (TGS), IATA ONE Record, Cargo-XML, Cargo-IMP, EDIFACT, IATA e-AWB, ZATCA, IATA CASS, SITA, Customs Authorities
 
 ## APIs
 
