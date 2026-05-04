@@ -1,0 +1,257 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/RateLimits
+provider: CHAMP Cargosystems
+providerId: champ
+created: '2026-05-04'
+modified: '2026-05-04'
+tags:
+  - Air Cargo
+  - Airlines
+  - Booking
+  - Cargo
+  - Cargospot
+  - Freight
+  - Logistics
+  - Tracking
+  - Rate Limiting
+  - Quotas
+  - Throttling
+description: Machine-readable rate limit definitions for the CHAMP Cargosystems API surface. Captures
+  per-tier quotas, burst behavior, response signaling, and recovery semantics. Defaults are scaffold values
+  to be replaced with published provider limits.
+headers:
+  limit: X-RateLimit-Limit
+  remaining: X-RateLimit-Remaining
+  reset: X-RateLimit-Reset
+  retryAfter: Retry-After
+  policy: RateLimit-Policy
+responseCodes:
+  throttled: 429
+  quotaExceeded: 429
+  serviceUnavailable: 503
+limits:
+  - tier: free
+    name: Free Tier Default
+    scope: api-key
+    metric: requests_per_minute
+    limit: 10
+    burst: 20
+    timeFrame: minute
+    applies:
+      - CHAMP Cargosystems Cargospot Acceptance API
+      - CHAMP Cargosystems Cargospot Active Allotments API
+      - CHAMP Cargosystems Cargospot Agent Air Waybill Stock API
+      - CHAMP Cargosystems Price Class API
+      - CHAMP Cargosystems Product API
+      - CHAMP Cargosystems Participant API
+      - CHAMP Cargosystems Cargospot Air Waybill Notes API
+      - CHAMP Cargosystems Cargospot Availability and Price API
+      - CHAMP Cargosystems Cargospot Get Flight Capacity API
+      - CHAMP Cargosystems Cargospot Handling Invoices API
+      - CHAMP Cargosystems Booking API
+      - CHAMP Cargosystems Cargospot Manage Delivery API
+      - CHAMP Cargosystems Cargospot E-Invoices From ZATCA API
+      - CHAMP Cargosystems Cargospot Manage Price Info API
+      - CHAMP Cargosystems Cargospot Master Allotments API
+      - CHAMP Cargosystems Cargospot Operational Flight and Truck API
+      - CHAMP Cargosystems Cargospot Payment API
+      - CHAMP Cargosystems Cargospot Pickup API
+      - CHAMP Cargosystems Price Class API
+      - CHAMP Cargosystems Product API
+      - CHAMP Cargosystems Publish Ad-Hoc Price Details API
+      - CHAMP Cargosystems Cargospot Publish Bookings API
+      - CHAMP Cargosystems Participant API
+      - CHAMP Cargosystems Cargospot Scale Weight API
+      - CHAMP Cargosystems Cargospot Schedule APIs
+      - CHAMP Cargosystems Cargospot Search Sell Prices API
+      - CHAMP Cargosystems Cargospot Search Unit Load Devices API
+      - CHAMP Cargosystems Cargospot Track and Trace API
+      - CHAMP Cargosystems Cargospot Update Dimension Details for a Shipment API
+      - CHAMP Cargosystems Cargospot Update Driver Details for Acceptance API
+      - CHAMP Cargosystems Cargospot Update Flight and Truck Capacity API
+      - CHAMP Cargosystems Cargospot Update ULD Acceptance Details API
+      - CHAMP Cargosystems Cargospot Update Warehouse Location API
+      - CHAMP Cargosystems TGS House Air Waybill Declarations API
+  - tier: free
+    name: Free Tier Monthly Quota
+    scope: api-key
+    metric: requests_per_month
+    limit: 1000
+    timeFrame: month
+    applies:
+      - CHAMP Cargosystems Cargospot Acceptance API
+      - CHAMP Cargosystems Cargospot Active Allotments API
+      - CHAMP Cargosystems Cargospot Agent Air Waybill Stock API
+      - CHAMP Cargosystems Price Class API
+      - CHAMP Cargosystems Product API
+      - CHAMP Cargosystems Participant API
+      - CHAMP Cargosystems Cargospot Air Waybill Notes API
+      - CHAMP Cargosystems Cargospot Availability and Price API
+      - CHAMP Cargosystems Cargospot Get Flight Capacity API
+      - CHAMP Cargosystems Cargospot Handling Invoices API
+      - CHAMP Cargosystems Booking API
+      - CHAMP Cargosystems Cargospot Manage Delivery API
+      - CHAMP Cargosystems Cargospot E-Invoices From ZATCA API
+      - CHAMP Cargosystems Cargospot Manage Price Info API
+      - CHAMP Cargosystems Cargospot Master Allotments API
+      - CHAMP Cargosystems Cargospot Operational Flight and Truck API
+      - CHAMP Cargosystems Cargospot Payment API
+      - CHAMP Cargosystems Cargospot Pickup API
+      - CHAMP Cargosystems Price Class API
+      - CHAMP Cargosystems Product API
+      - CHAMP Cargosystems Publish Ad-Hoc Price Details API
+      - CHAMP Cargosystems Cargospot Publish Bookings API
+      - CHAMP Cargosystems Participant API
+      - CHAMP Cargosystems Cargospot Scale Weight API
+      - CHAMP Cargosystems Cargospot Schedule APIs
+      - CHAMP Cargosystems Cargospot Search Sell Prices API
+      - CHAMP Cargosystems Cargospot Search Unit Load Devices API
+      - CHAMP Cargosystems Cargospot Track and Trace API
+      - CHAMP Cargosystems Cargospot Update Dimension Details for a Shipment API
+      - CHAMP Cargosystems Cargospot Update Driver Details for Acceptance API
+      - CHAMP Cargosystems Cargospot Update Flight and Truck Capacity API
+      - CHAMP Cargosystems Cargospot Update ULD Acceptance Details API
+      - CHAMP Cargosystems Cargospot Update Warehouse Location API
+      - CHAMP Cargosystems TGS House Air Waybill Declarations API
+  - tier: professional
+    name: Professional Tier Default
+    scope: api-key
+    metric: requests_per_minute
+    limit: 100
+    burst: 200
+    timeFrame: minute
+    applies:
+      - CHAMP Cargosystems Cargospot Acceptance API
+      - CHAMP Cargosystems Cargospot Active Allotments API
+      - CHAMP Cargosystems Cargospot Agent Air Waybill Stock API
+      - CHAMP Cargosystems Price Class API
+      - CHAMP Cargosystems Product API
+      - CHAMP Cargosystems Participant API
+      - CHAMP Cargosystems Cargospot Air Waybill Notes API
+      - CHAMP Cargosystems Cargospot Availability and Price API
+      - CHAMP Cargosystems Cargospot Get Flight Capacity API
+      - CHAMP Cargosystems Cargospot Handling Invoices API
+      - CHAMP Cargosystems Booking API
+      - CHAMP Cargosystems Cargospot Manage Delivery API
+      - CHAMP Cargosystems Cargospot E-Invoices From ZATCA API
+      - CHAMP Cargosystems Cargospot Manage Price Info API
+      - CHAMP Cargosystems Cargospot Master Allotments API
+      - CHAMP Cargosystems Cargospot Operational Flight and Truck API
+      - CHAMP Cargosystems Cargospot Payment API
+      - CHAMP Cargosystems Cargospot Pickup API
+      - CHAMP Cargosystems Price Class API
+      - CHAMP Cargosystems Product API
+      - CHAMP Cargosystems Publish Ad-Hoc Price Details API
+      - CHAMP Cargosystems Cargospot Publish Bookings API
+      - CHAMP Cargosystems Participant API
+      - CHAMP Cargosystems Cargospot Scale Weight API
+      - CHAMP Cargosystems Cargospot Schedule APIs
+      - CHAMP Cargosystems Cargospot Search Sell Prices API
+      - CHAMP Cargosystems Cargospot Search Unit Load Devices API
+      - CHAMP Cargosystems Cargospot Track and Trace API
+      - CHAMP Cargosystems Cargospot Update Dimension Details for a Shipment API
+      - CHAMP Cargosystems Cargospot Update Driver Details for Acceptance API
+      - CHAMP Cargosystems Cargospot Update Flight and Truck Capacity API
+      - CHAMP Cargosystems Cargospot Update ULD Acceptance Details API
+      - CHAMP Cargosystems Cargospot Update Warehouse Location API
+      - CHAMP Cargosystems TGS House Air Waybill Declarations API
+  - tier: professional
+    name: Professional Tier Monthly Quota
+    scope: api-key
+    metric: requests_per_month
+    limit: 100000
+    timeFrame: month
+    applies:
+      - CHAMP Cargosystems Cargospot Acceptance API
+      - CHAMP Cargosystems Cargospot Active Allotments API
+      - CHAMP Cargosystems Cargospot Agent Air Waybill Stock API
+      - CHAMP Cargosystems Price Class API
+      - CHAMP Cargosystems Product API
+      - CHAMP Cargosystems Participant API
+      - CHAMP Cargosystems Cargospot Air Waybill Notes API
+      - CHAMP Cargosystems Cargospot Availability and Price API
+      - CHAMP Cargosystems Cargospot Get Flight Capacity API
+      - CHAMP Cargosystems Cargospot Handling Invoices API
+      - CHAMP Cargosystems Booking API
+      - CHAMP Cargosystems Cargospot Manage Delivery API
+      - CHAMP Cargosystems Cargospot E-Invoices From ZATCA API
+      - CHAMP Cargosystems Cargospot Manage Price Info API
+      - CHAMP Cargosystems Cargospot Master Allotments API
+      - CHAMP Cargosystems Cargospot Operational Flight and Truck API
+      - CHAMP Cargosystems Cargospot Payment API
+      - CHAMP Cargosystems Cargospot Pickup API
+      - CHAMP Cargosystems Price Class API
+      - CHAMP Cargosystems Product API
+      - CHAMP Cargosystems Publish Ad-Hoc Price Details API
+      - CHAMP Cargosystems Cargospot Publish Bookings API
+      - CHAMP Cargosystems Participant API
+      - CHAMP Cargosystems Cargospot Scale Weight API
+      - CHAMP Cargosystems Cargospot Schedule APIs
+      - CHAMP Cargosystems Cargospot Search Sell Prices API
+      - CHAMP Cargosystems Cargospot Search Unit Load Devices API
+      - CHAMP Cargosystems Cargospot Track and Trace API
+      - CHAMP Cargosystems Cargospot Update Dimension Details for a Shipment API
+      - CHAMP Cargosystems Cargospot Update Driver Details for Acceptance API
+      - CHAMP Cargosystems Cargospot Update Flight and Truck Capacity API
+      - CHAMP Cargosystems Cargospot Update ULD Acceptance Details API
+      - CHAMP Cargosystems Cargospot Update Warehouse Location API
+      - CHAMP Cargosystems TGS House Air Waybill Declarations API
+  - tier: enterprise
+    name: Enterprise Negotiated Limit
+    scope: contract
+    metric: requests_per_minute
+    limit: 1000
+    burst: 5000
+    timeFrame: minute
+    applies:
+      - CHAMP Cargosystems Cargospot Acceptance API
+      - CHAMP Cargosystems Cargospot Active Allotments API
+      - CHAMP Cargosystems Cargospot Agent Air Waybill Stock API
+      - CHAMP Cargosystems Price Class API
+      - CHAMP Cargosystems Product API
+      - CHAMP Cargosystems Participant API
+      - CHAMP Cargosystems Cargospot Air Waybill Notes API
+      - CHAMP Cargosystems Cargospot Availability and Price API
+      - CHAMP Cargosystems Cargospot Get Flight Capacity API
+      - CHAMP Cargosystems Cargospot Handling Invoices API
+      - CHAMP Cargosystems Booking API
+      - CHAMP Cargosystems Cargospot Manage Delivery API
+      - CHAMP Cargosystems Cargospot E-Invoices From ZATCA API
+      - CHAMP Cargosystems Cargospot Manage Price Info API
+      - CHAMP Cargosystems Cargospot Master Allotments API
+      - CHAMP Cargosystems Cargospot Operational Flight and Truck API
+      - CHAMP Cargosystems Cargospot Payment API
+      - CHAMP Cargosystems Cargospot Pickup API
+      - CHAMP Cargosystems Price Class API
+      - CHAMP Cargosystems Product API
+      - CHAMP Cargosystems Publish Ad-Hoc Price Details API
+      - CHAMP Cargosystems Cargospot Publish Bookings API
+      - CHAMP Cargosystems Participant API
+      - CHAMP Cargosystems Cargospot Scale Weight API
+      - CHAMP Cargosystems Cargospot Schedule APIs
+      - CHAMP Cargosystems Cargospot Search Sell Prices API
+      - CHAMP Cargosystems Cargospot Search Unit Load Devices API
+      - CHAMP Cargosystems Cargospot Track and Trace API
+      - CHAMP Cargosystems Cargospot Update Dimension Details for a Shipment API
+      - CHAMP Cargosystems Cargospot Update Driver Details for Acceptance API
+      - CHAMP Cargosystems Cargospot Update Flight and Truck Capacity API
+      - CHAMP Cargosystems Cargospot Update ULD Acceptance Details API
+      - CHAMP Cargosystems Cargospot Update Warehouse Location API
+      - CHAMP Cargosystems TGS House Air Waybill Declarations API
+policies:
+  - name: Backoff Strategy
+    description: Clients should implement exponential backoff with jitter, honoring the Retry-After header
+      when present.
+  - name: Burst Handling
+    description: Short bursts above the steady-state limit are tolerated up to the documented burst ceiling
+      before throttling engages.
+  - name: Quota Reset
+    description: Monthly quotas reset at the start of each calendar month in UTC. Per-minute and per-second
+      windows reset on a sliding-window basis.
+  - name: Fair Use
+    description: Even on uncapped enterprise tiers, sustained usage that materially impacts shared infrastructure
+      may be subject to fair-use throttling.
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
