@@ -1,7 +1,7 @@
 aid: champ
 url: >-
   https://raw.githubusercontent.com/api-evangelist/champ/refs/heads/main/apis.yml
-x-type: company
+kind: company
 apis:
   - aid: champ:cargospot-acceptance-api
     name: CHAMP Cargosystems Cargospot Acceptance API
