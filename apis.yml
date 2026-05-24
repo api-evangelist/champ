@@ -691,6 +691,8 @@ common:
       - name: IATA CASS
       - name: SITA
       - name: Customs Authorities
+  - type: LLMsTxt
+    url: https://developer.champ.aero/llms.txt
 created: '2025-02-17'
 modified: '2026-04-23'
 position: Consuming
