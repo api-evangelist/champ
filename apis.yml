@@ -307,38 +307,6 @@ apis:
       users to efficiently manage and coordinate the pickup of cargo shipments. This
       API allows users to schedule and track pickup requests, assign drivers and vehicles
       to specific pickups, and receive real-time updates on the status of each pickup.
-  - aid: champ:price-class-api
-    name: CHAMP Cargosystems Price Class API
-    tags:
-      - Air Cargo
-      - Cargospot
-      - Logistics
-    humanURL: https://developer.champ.aero/docs/csp-price-class-api/1/overview
-    properties:
-      - url: https://developer.champ.aero/docs/csp-price-class-api/1/overview
-        type: Documentation
-    description: >-
-      The CHAMP Cargosystems Price Class API is a tool that allows users to access
-      and manage pricing information for cargo shipments. With this API, users can
-      retrieve real-time pricing data for various transportation services and routes,
-      enabling them to make informed decisions when calculating shipping costs and
-      selecting the most cost-effective options for their shipments.
-  - aid: champ:product-api
-    name: CHAMP Cargosystems Product API
-    tags:
-      - Air Cargo
-      - Cargospot
-      - Logistics
-    humanURL: https://developer.champ.aero/docs/csp-product-api/1/overview
-    properties:
-      - url: https://developer.champ.aero/docs/csp-product-api/1/overview
-        type: Documentation
-    description: >-
-      The CHAMP Cargosystems Product API is a sophisticated software solution that
-      provides users with a seamless interface to access and manage a wide range of
-      cargo-related services and functionalities. By leveraging this API, businesses
-      can easily integrate their own systems with CHAMP Cargosystems' platform, enabling
-      them to automate processes, streamline operations, and improve overall efficiency.
   - aid: champ:publish-ad-hoc-price-details-api
     name: CHAMP Cargosystems Publish Ad-Hoc Price Details API
     tags:
@@ -376,23 +344,6 @@ apis:
       By utilizing this API, users can efficiently manage and share booking data,
       ensuring that all parties involved in the shipment process have access to accurate
       and up-to-date information.
-  - aid: champ:participant-api
-    name: CHAMP Cargosystems Participant API
-    tags:
-      - Air Cargo
-      - Cargospot
-      - Logistics
-    humanURL: https://developer.champ.aero/docs/csp-participant-events-api/1/overview
-    properties:
-      - url: >-
-          https://developer.champ.aero/docs/csp-participant-events-api/1/overview
-        type: Documentation
-    description: >-
-      The CHAMP Cargosystems Participant API is a powerful tool that allows users
-      to access and interact with CHAMP Cargosystems' comprehensive suite of cargo
-      management solutions. This API enables seamless integration between CHAMP Cargosystems'
-      software and third-party applications, giving users the ability to automate
-      workflows, streamline processes, and improve overall efficiency.
   - aid: champ:cargospot-scale-weight-api
     name: CHAMP Cargosystems Cargospot Scale Weight API
     tags:
@@ -602,6 +553,7 @@ tags:
   - Freight
   - Logistics
   - Tracking
+  - Aviation
 type: Index
 deliveryModel:
   model: unknown
