@@ -1,4 +1,4 @@
-# CHAMP Cargosystems (champ)
+# CHAMP Cargosystems
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,491 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Champ.aero, also known as CHAMP Cargosystems, is a company that provides comprehensive IT solutions for the air cargo industry, offering a range of software applications and services to manage all aspects of air cargo operations, including booking, handling, accounting, customs clearance, and messaging, primarily through their flagship product called "Cargospot". CHAMP exposes a large catalog of Cargospot and TGS APIs through its developer portal for acceptance, allotments, air waybills, pricing, invoicing, booking, tracking, ULDs, warehouse operations, and more.
+Champ.aero, also known as CHAMP Cargosystems, is a company that provides comprehensive IT solutions for the air cargo industry, offering a range of software applications and services to manage all aspects of air cargo operations, including booking, handling, accounting, customs clearance, and messaging, primarily through their flagship product called "Cargospot.".
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/champ/refs/heads/main/apis.yml)
+**Areas:** Air Cargo · Airlines · Booking · Cargo · Cargospot · Freight · Logistics · Tracking · Aviation
 
-## Scope
+## CHAMP Cargosystems on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
-- **x-type:** company
+Everything profiled for CHAMP Cargosystems is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/champ/](https://apis.io/providers/champ/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (31)
+
+- [CHAMP Cargosystems Cargospot Acceptance API](https://apis.io/apis/champ/cargospot-acceptance-api/) — The CHAMP Cargosystems Cargospot Acceptance API is a software solution that allows cargo handling agents and freight forwarders to streamline and automate…
+- [CHAMP Cargosystems Cargospot Active Allotments API](https://apis.io/apis/champ/cargospot-active-allotments-api/) — The CHAMP Cargosystems Cargospot Active Allotments API is a powerful tool that allows users to efficiently manage and allocate cargo space on flights. This…
+- [CHAMP Cargosystems Cargospot Agent Air Waybill Stock API](https://apis.io/apis/champ/cargospot-agent-air-waybill-stock-api/) — The CHAMP Cargosystems Cargospot Agent Air Waybill Stock API is a tool that allows users to access a database of air waybill stock information. This API…
+- [CHAMP Cargosystems Price Class API](https://apis.io/apis/champ/price-class-api/) — The CHAMP Cargosystems Price Class API is a tool that allows users to access and manage pricing information for cargo shipments. With this API, users can…
+- [CHAMP Cargosystems Product API](https://apis.io/apis/champ/product-api/) — The CHAMP Cargosystems Product API is a sophisticated software solution that provides users with a seamless interface to access and manage a wide range of…
+- [CHAMP Cargosystems Participant API](https://apis.io/apis/champ/participant-api/) — The CHAMP Cargosystems Participant API is a powerful tool that allows users to access and interact with CHAMP Cargosystems' comprehensive suite of cargo…
+- [CHAMP Cargosystems Cargospot Air Waybill Notes API](https://apis.io/apis/champ/cargospot-air-waybill-notes-api/) — The CHAMP Cargosystems Cargospot Air Waybill Notes API is a tool that allows users to easily access and manage important data related to air waybills. This…
+- [CHAMP Cargosystems Cargospot Availability and Price API](https://apis.io/apis/champ/cargospot-availability-and-price-api/) — The CHAMP Cargosystems Cargospot Availability and Price API is a tool developed to provide users with real-time information on the availability and pricing…
+- [CHAMP Cargosystems Cargospot Get Flight Capacity API](https://apis.io/apis/champ/cargospot-get-flight-capacity-api/) — Cargospot Get Flight CapacityAPI DescriptionThis API allows you to retrieve the capacity details of one or more flight/truck(s) from CHAMP Cargospot.
+- [CHAMP Cargosystems Cargospot Handling Invoices API](https://apis.io/apis/champ/cargospot-handling-invoices-api/) — The CHAMP Cargosystems Cargospot Handling Invoices API is a software tool designed to streamline the invoicing process for handling companies in the air…
+- [CHAMP Cargosystems Booking API](https://apis.io/apis/champ/booking-api/) — The CHAMP Cargosystems Booking API is a software tool that allows users to easily book and manage shipments through an automated system. This API…
+- [CHAMP Cargosystems Cargospot Manage Delivery API](https://apis.io/apis/champ/cargospot-manage-delivery-api/) — The CHAMP Cargosystems Cargospot Manage Delivery API is a powerful tool that allows users to efficiently manage and track the delivery of cargo shipments.…
+- [CHAMP Cargosystems Cargospot E-Invoices From ZATCA API](https://apis.io/apis/champ/cargospot-e-invoices-from-zatca-api/) — CHAMP Cargosystems Cargospot e-Invoices from ZATCA API is a software tool that allows users to easily create and manage electronic invoices for their cargo…
+- [CHAMP Cargosystems Cargospot Manage Price Info API](https://apis.io/apis/champ/cargospot-manage-price-info-api/) — The CHAMP Cargosystems Cargospot Manage Price Info API is a powerful tool that allows users to retrieve and manage pricing information for various cargo…
+- [CHAMP Cargosystems Cargospot Master Allotments API](https://apis.io/apis/champ/cargospot-master-allotments-api/) — The CHAMP Cargosystems Cargospot Master Allotments API is a powerful tool that helps automate and streamline the process of managing and assigning cargo…
+- [CHAMP Cargosystems Cargospot Operational Flight and Truck API](https://apis.io/apis/champ/cargospot-operational-flight-and-truck-api/) — CHAMP Cargosystems Cargospot Operational Flight and Truck API is a powerful tool that helps businesses in the aviation industry optimize their operational…
+- [CHAMP Cargosystems Cargospot Payment API](https://apis.io/apis/champ/cargospot-payment-api/) — The CHAMP Cargosystems Cargospot Payment API is a software interface that allows users to securely process and track payments related to cargo shipments.…
+- [CHAMP Cargosystems Cargospot Pickup API](https://apis.io/apis/champ/cargospot-pickup-api/) — The CHAMP Cargosystems Cargospot Pickup API is a software solution that enables users to efficiently manage and coordinate the pickup of cargo shipments.…
+- [CHAMP Cargosystems Publish Ad-Hoc Price Details API](https://apis.io/apis/champ/publish-ad-hoc-price-details-api/) — The CHAMP Cargosystems Publish Ad-Hoc Price Details API is a tool designed to provide users with the ability to quickly and easily access and disseminate…
+- [CHAMP Cargosystems Cargospot Publish Bookings API](https://apis.io/apis/champ/cargospot-publish-bookings-api/) — The CHAMP Cargosystems Cargospot Publish Bookings API is a tool designed to streamline the process of booking cargo shipments. This API allows users to…
+- [CHAMP Cargosystems Cargospot Scale Weight API](https://apis.io/apis/champ/cargospot-scale-weight-api/) — CHAMP Cargosystems Cargospot Scale Weight API is a software tool that allows users to input and retrieve accurate weight measurements for cargo shipments.…
+- [CHAMP Cargosystems Cargospot Schedule APIs](https://apis.io/apis/champ/cargospot-schedule-apis/) — CHAMP Cargosystems Cargospot Schedule APIs provide a comprehensive solution for airlines and other stakeholders in the air cargo industry to efficiently…
+- [CHAMP Cargosystems Cargospot Search Sell Prices API](https://apis.io/apis/champ/cargospot-search-sell-prices-api/) — The CHAMP Cargosystems Cargospot Search Sell Prices API is a tool that allows users to search and compare prices for various cargo shipping services. This…
+- [CHAMP Cargosystems Cargospot Search Unit Load Devices API](https://apis.io/apis/champ/cargospot-search-unit-load-devices-api/) — The CHAMP Cargosystems Cargospot Search Unit Load Devices API is a powerful tool that allows users to quickly and easily search for unit load devices (ULDs)…
+- [CHAMP Cargosystems Cargospot Track and Trace API](https://apis.io/apis/champ/cargospot-track-and-trace-api/) — The CHAMP Cargosystems Cargospot Track and Trace API is a powerful tool that allows users to track and trace their cargo shipments in real-time. By…
+- [CHAMP Cargosystems Cargospot Update Dimension Details for a Shipment API](https://apis.io/apis/champ/cargospot-update-dimension-details-for-a-shipment-api/) — The CHAMP Cargosystems Cargospot Update Dimension Details for a Shipment API is a tool that allows users to easily update the dimension details of a…
+- [CHAMP Cargosystems Cargospot Update Driver Details for Acceptance API](https://apis.io/apis/champ/cargospot-update-driver-details-for-acceptance-api/) — The CHAMP Cargosystems Cargospot Update Driver Details For Acceptance API is a tool that allows users to update driver details in the Cargospot system to…
+- [CHAMP Cargosystems Cargospot Update Flight and Truck Capacity API](https://apis.io/apis/champ/cargospot-update-flight-and-truck-capacity-api/) — The CHAMP Cargosystems Cargospot Update Flight and Truck Capacity API is a software tool that allows users to efficiently manage and update flight and truck…
+- [CHAMP Cargosystems Cargospot Update ULD Acceptance Details API](https://apis.io/apis/champ/cargospot-update-uld-acceptance-details-api/) — The CHAMP Cargosystems Cargospot Update ULD Acceptance Details API is a tool that allows users to update and track the details of Unit Load Devices (ULD)…
+- [CHAMP Cargosystems Cargospot Update Warehouse Location API](https://apis.io/apis/champ/cargospot-update-warehouse-location-api/) — Certainly! The CHAMP Cargosystems Cargospot Update Warehouse Location API is a tool that allows users to update and manage warehouse locations within the…
+- [CHAMP Cargosystems TGS House Air Waybill Declarations API](https://apis.io/apis/champ/tgs-house-air-waybill-declarations-api/) — The CHAMP Cargosystems TGS House Air Waybill Declarations API is a software tool that allows users to easily create and manage air waybill declarations for…
 
-- Air Cargo, Airlines, Booking, Cargo, Cargospot, Freight, Logistics, Tracking
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2025-02-17
-- **Modified:** 2026-04-23
+#### Security (1)
 
-## Features
+Authentication, trust centre, and vulnerability disclosure.
 
-Cargo Booking, Acceptance, Track and Trace, Allotments, Air Waybills (AWB), House Air Waybill Declarations, Pricing, Price Class Management, Handling Invoices, ZATCA e-Invoicing, Payment Processing, Pickup, Delivery, Warehouse Management, Unit Load Device (ULD) Handling, Scale Weight, Flight Capacity, Truck Capacity, Schedules, Participant Events, Event Publishing, Real-Time Tracking, REST API
+- [Champ Domain Security](https://apis.io/security/champ/champ-domain-security/)
 
-## Use Cases
+#### Plans and pricing (1)
 
-Air Cargo Operations Automation, Freight Forwarder Integration, Ground Handler Integration, Airline Cargo Management, e-AWB Digitization, Customs Compliance, ZATCA e-Invoicing Compliance, Revenue Accounting, Capacity Optimization, Pickup and Delivery Coordination, Real-Time Shipment Visibility, Warehouse Operations
+Published plans, tiers and prices.
 
-## Integrations
+- [Champ Plans Pricing](https://apis.io/plans/champ/champ-plans-pricing/)
 
-Cargospot, CHAMP Traxon Global Systems (TGS), IATA ONE Record, Cargo-XML, Cargo-IMP, EDIFACT, IATA e-AWB, ZATCA, IATA CASS, SITA, Customs Authorities
+#### Rate limits (1)
 
-## APIs
+Published request limits.
 
-### CHAMP Cargosystems Cargospot Acceptance API
-The CHAMP Cargosystems Cargospot Acceptance API is a software solution that allows cargo handling agents and freight forwarders to streamline and automate the acceptance process for air shipments. By integrating this API into their systems, users can electronically submit and receive acceptance messages, track consignments, and manage bookings in real-time. This helps to reduce manual data entry errors, speed up the acceptance process, and improve operational efficiency. Additionally, the API provides a customizable interface that can be tailored to meet the specific needs of individual users, making it a versatile and user-friendly tool for managing air cargo shipments.
+- [Champ Rate Limits](https://apis.io/rate-limits/champ/champ-rate-limits/)
 
-**Human URL:** [https://developer.champ.aero/docs/csp-acceptance-api/1/overview](https://developer.champ.aero/docs/csp-acceptance-api/1/overview)
+#### FinOps (1)
 
+What the API costs to run, by operation.
 
-#### Tags:
+- [Champ Finops](https://apis.io/finops/champ/champ-finops/)
 
- - No Tags
+## Where to find this API
 
-#### Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Documentation](https://developer.champ.aero/docs/csp-acceptance-api/1/overview)
-### CHAMP Cargosystems Cargospot Active Allotments API
-The CHAMP Cargosystems Cargospot Active Allotments API is a powerful tool that allows users to efficiently manage and allocate cargo space on flights. This API provides access to real-time information on available allotments, allowing users to easily make adjustments and optimize their cargo operations. By leveraging this API, users can streamline their processes, increase efficiency, and ultimately improve their overall performance in the cargo industry. With its user-friendly interface and comprehensive features, the CHAMP Cargosystems Cargospot Active Allotments API is an invaluable resource for companies looking to enhance their cargo management capabilities.
+- [Website](https://www.champ.aero/)
+- [Getting started](https://developer.champ.aero/get-started)
+- [Blog](https://www.champ.aero/blog)
 
-**Human URL:** [https://developer.champ.aero/docs/csp-active-allotment-api/1/overview](https://developer.champ.aero/docs/csp-active-allotment-api/1/overview)
+## API Evangelist rating
 
+**Kin Score 15.0** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-#### Tags:
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 7.9 |
 
- - No Tags
+**Agent readiness 0.6** — human-only
 
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/csp-active-allotment-api/1/overview)
-### CHAMP Cargosystems Cargospot Agent Air Waybill Stock API
-The CHAMP Cargosystems Cargospot Agent Air Waybill Stock API is a tool that allows users to access a database of air waybill stock information. This API provides real-time data on the availability of air waybill stock, allowing users to quickly and easily check the status of their shipments. By using this API, users can streamline their cargo operations, ensuring that they have the necessary documentation to complete shipments on time. Additionally, the API allows users to track and manage their air waybill stock inventory, helping to prevent stockouts and delays in the shipping process. Overall, the CHAMP Cargosystems Cargospot Agent Air Waybill Stock API is a valuable tool for cargo agents looking to optimize their operations and improve their efficiency.
-
-**Human URL:** [https://developer.champ.aero/docs/cargospot-agent-stock-api/1/overview](https://developer.champ.aero/docs/cargospot-agent-stock-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/cargospot-agent-stock-api/1/overview)
-### CHAMP Cargosystems Price Class API
-The CHAMP Cargosystems Price Class API is a tool that allows users to access and manage pricing information for cargo shipments. With this API, users can retrieve real-time pricing data for various transportation services and routes, enabling them to make informed decisions when calculating shipping costs and selecting the most cost-effective options for their shipments. Additionally, the API allows users to customize pricing parameters and input specific requirements, ensuring that they receive accurate and up-to-date pricing information tailored to their individual needs. Overall, the CHAMP Cargosystems Price Class API streamlines the pricing process for cargo shipments, making it easier for users to plan and execute their logistics operations efficiently.
-
-**Human URL:** [https://developer.champ.aero/docs/csp-price-class-api/1/overview](https://developer.champ.aero/docs/csp-price-class-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/csp-price-class-api/1/overview)
-### CHAMP Cargosystems Product API
-The CHAMP Cargosystems Product API is a sophisticated software solution that provides users with a seamless interface to access and manage a wide range of cargo-related services and functionalities. By leveraging this API, businesses can easily integrate their own systems with CHAMP Cargosystems' platform, enabling them to automate processes, streamline operations, and improve overall efficiency. This powerful tool enables users to gain real-time access to critical data, track shipments, manage bookings, and communicate with various stakeholders within the supply chain. In essence, the CHAMP Cargosystems Product API serves as a comprehensive gateway that empowers businesses to optimize their cargo handling processes and enhance the overall customer experience.
-
-**Human URL:** [https://developer.champ.aero/docs/csp-product-api/1/overview](https://developer.champ.aero/docs/csp-product-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/csp-product-api/1/overview)
-### CHAMP Cargosystems Participant API
-The CHAMP Cargosystems Participant API is a powerful tool that allows users to access and interact with CHAMP Cargosystems' comprehensive suite of cargo management solutions. This API enables seamless integration between CHAMP Cargosystems' software and third-party applications, giving users the ability to automate workflows, streamline processes, and improve overall efficiency. By leveraging the CHAMP Cargosystems Participant API, organizations can enhance visibility, track shipments in real-time, manage inventory, and optimize supply chain operations. With its user-friendly interface and robust functionality, the CHAMP Cargosystems Participant API empowers users to take full advantage of CHAMP Cargosystems' industry-leading technology and services.
-
-**Human URL:** [https://developer.champ.aero/docs/csp-participant-events-api/1/overview](https://developer.champ.aero/docs/csp-participant-events-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/csp-participant-events-api/1/overview)
-### CHAMP Cargosystems Cargospot Air Waybill Notes API
-The CHAMP Cargosystems Cargospot Air Waybill Notes API is a tool that allows users to easily access and manage important data related to air waybills. This API enables users to retrieve, update, and delete information such as shipping details, delivery instructions, and payment terms stored within air waybill notes. By utilizing this API, users can streamline their cargo operations, improve data accuracy, and enhance overall efficiency in managing air waybill notes. Additionally, this API provides a secure and reliable way for users to access and manipulate critical information, ultimately helping to optimize the handling of air freight shipments.
-
-**Human URL:** [https://developer.champ.aero/docs/cargospot-air-waybill-notes-api/1/overview](https://developer.champ.aero/docs/cargospot-air-waybill-notes-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/cargospot-air-waybill-notes-api/1/overview)
-### CHAMP Cargosystems Cargospot Availability and Price API
-The CHAMP Cargosystems Cargospot Availability and Price API is a tool developed to provide users with real-time information on the availability and pricing of cargo spots within the CHAMP Cargosystems network. This API allows users to easily access and retrieve accurate information on the status of cargo spots, enabling them to make informed decisions when booking and managing their shipments. By leveraging this API, users can streamline their cargo booking processes, improve efficiency, and enhance their overall logistics operations. Additionally, the API offers a user-friendly interface and seamless integration capabilities, making it a valuable resource for businesses in the cargo industry. Overall, the CHAMP Cargosystems Cargospot Availability and Price API is a powerful tool that enhances visibility, flexibility, and control for users within the global cargo network.
-
-**Human URL:** [https://developer.champ.aero/docs/csp-transport-means-availability-api-standard/1/overview](https://developer.champ.aero/docs/csp-transport-means-availability-api-standard/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/csp-transport-means-availability-api-standard/1/overview)
-### CHAMP Cargosystems Cargospot Get Flight Capacity API
-Cargospot Get Flight CapacityAPI DescriptionThis API allows you to retrieve the capacity details of one or more flight/truck(s) from CHAMP Cargospot. The following details will be returned from Cargospot for the flights passed in the request - flight details (flight number, date, origin, destination, scheduled time of departure, scheduled time of arrival, status etc), maximum / available capacity details (weight, volume, free sale weight, free sale volume, allotment weight and allotment volume) and list of allotments. Allotment information contains allotment code, agent details, station, product, origin, destination, special handling code, allotted weight, volume, ULD count, ULD type, ULD details, available weight, volume, ULD details and release status.
-
-**Human URL:** [https://developer.champ.aero/docs/csp-transport-means-capacity-api-standard/1/overview](https://developer.champ.aero/docs/csp-transport-means-capacity-api-standard/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/csp-transport-means-capacity-api-standard/1/overview)
-### CHAMP Cargosystems Cargospot Handling Invoices API
-The CHAMP Cargosystems Cargospot Handling Invoices API is a software tool designed to streamline the invoicing process for handling companies in the air cargo industry. This API allows handling companies to easily generate, manage, and track invoices for their services, such as loading and unloading cargo, storing shipments, and handling customs documentation. By automating and digitizing the invoicing process, this API helps handling companies reduce manual errors, speed up payment cycles, and improve overall efficiency in their operations. Additionally, the API provides real-time visibility into invoice statuses and payment tracking, allowing companies to better manage their finances and operational costs.
-
-**Human URL:** [https://developer.champ.aero/docs/csp-handling-invoices-api/1/overview](https://developer.champ.aero/docs/csp-handling-invoices-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/csp-handling-invoices-api/1/overview)
-### CHAMP Cargosystems Booking API
-The CHAMP Cargosystems Booking API is a software tool that allows users to easily book and manage shipments through an automated system. This API streamlines the process of booking cargo space, tracking shipments, and managing warehouse operations. By integrating with various transportation and logistics systems, the CHAMP Cargosystems Booking API provides users with real-time visibility into their supply chain, helping to improve efficiency, accuracy, and customer satisfaction. With its user-friendly interface and ability to connect with multiple carriers and vendors, this API simplifies the complexities of freight booking and logistics management, making it an essential tool for any business in the shipping and transportation industry.
-
-**Human URL:** [https://developer.champ.aero/docs/-csp-booking-genaric-api/1/overview](https://developer.champ.aero/docs/-csp-booking-genaric-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/-csp-booking-genaric-api/1/overview)
-### CHAMP Cargosystems Cargospot Manage Delivery API
-The CHAMP Cargosystems Cargospot Manage Delivery API is a powerful tool that allows users to efficiently manage and track the delivery of cargo shipments. With this API, users can easily access real-time information about the status and location of their cargo, as well as receive notifications and alerts about any changes or delays in the delivery process. This API also enables seamless communication between shippers, carriers, and other stakeholders involved in the delivery process, ensuring smooth and timely delivery of goods. Overall, the CHAMP Cargosystems Cargospot Manage Delivery API streamlines the delivery process and enhances visibility and control over cargo shipments.
-
-**Human URL:** [https://developer.champ.aero/docs/csp-delivery-api/1/overview](https://developer.champ.aero/docs/csp-delivery-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/csp-delivery-api/1/overview)
-### CHAMP Cargosystems Cargospot e-Invoices from ZATCA API
-CHAMP Cargosystems Cargospot e-Invoices from ZATCA API is a software tool that allows users to easily create and manage electronic invoices for their cargo shipments. By integrating with the ZATCA API, this tool streamlines the process of generating invoices, reducing the risk of errors and speeding up the invoicing process. Users can input all necessary shipment details, such as weight, dimensions, and destination, and the software will automatically generate a professional-looking invoice. This helps to ensure accurate billing and efficient payment processing for both the shipper and the recipient. Overall, CHAMP Cargosystems Cargospot e-Invoices from ZATCA API simplifies the invoicing process for cargo shipments, saving time and improving accuracy.
-
-**Human URL:** [https://developer.champ.aero/docs/csp-invoices-api/1/overview](https://developer.champ.aero/docs/csp-invoices-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/csp-invoices-api/1/overview)
-### CHAMP Cargosystems Cargospot Manage Price Info API
-The CHAMP Cargosystems Cargospot Manage Price Info API is a powerful tool that allows users to retrieve and manage pricing information for various cargo services. With this API, users can access real-time pricing data, calculate rates for shipments, and update pricing information as needed. This API simplifies the process of managing pricing information, making it easier for businesses to accurately quote prices to customers and streamline their cargo operations. Additionally, the CHAMP Cargosystems Cargospot Manage Price Info API can be integrated with other systems and applications, providing a comprehensive solution for managing pricing information in the cargo industry.
-
-**Human URL:** [https://developer.champ.aero/docs/csp-pricing-v1-api-standard/1/overview](https://developer.champ.aero/docs/csp-pricing-v1-api-standard/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/csp-pricing-v1-api-standard/1/overview)
-### CHAMP Cargosystems Cargospot Master Allotments API
-The CHAMP Cargosystems Cargospot Master Allotments API is a powerful tool that helps automate and streamline the process of managing and assigning cargo space for airlines. With this API, airlines can easily view and manage available space, create and update allotments, and monitor utilization in real-time. This allows for more efficient allocation of cargo space, reducing the risk of overbooking or underutilization. Additionally, the API enables airlines to easily communicate with their partners and customers, ensuring smooth and seamless operations. Overall, the CHAMP Cargosystems Cargospot Master Allotments API enhances the efficiency and effectiveness of cargo management processes, ultimately leading to improved customer satisfaction and operational performance.
-
-**Human URL:** [https://developer.champ.aero/docs/csp-master-alotment-api/1/overview](https://developer.champ.aero/docs/csp-master-alotment-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/csp-master-alotment-api/1/overview)
-### CHAMP Cargosystems Cargospot Operational Flight and Truck API
-CHAMP Cargosystems Cargospot Operational Flight and Truck API is a powerful tool that helps businesses in the aviation industry optimize their operational efficiency. By seamlessly integrating with existing systems, this API streamlines the management of flight and truck operations, providing real-time updates on schedules, resources, and logistics. Users can easily track the status of their shipments, monitor inventory levels, and coordinate with various stakeholders to ensure smooth and on-time delivery of goods. With its advanced capabilities and user-friendly interface, the CHAMP Cargosystems Cargospot Operational Flight and Truck API is a valuable asset for companies looking to improve their supply chain operations and enhance customer satisfaction.
-
-**Human URL:** [https://developer.champ.aero/docs/cargospot-transport-means-api/1/overview](https://developer.champ.aero/docs/cargospot-transport-means-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/cargospot-transport-means-api/1/overview)
-### CHAMP Cargosystems Cargospot Payment API
-The CHAMP Cargosystems Cargospot Payment API is a software interface that allows users to securely process and track payments related to cargo shipments. This API enables shippers, freight forwarders, and other stakeholders in the supply chain to seamlessly manage financial transactions, such as invoicing, payment collection, and reconciliation. By integrating with existing payment systems, the Cargospot Payment API streamlines the payment process, reduces manual errors, and ensures complete visibility and transparency throughout the payment lifecycle. Overall, this API enhances efficiency, accuracy, and accountability in cargo payment processing, ultimately contributing to smoother operations and greater customer satisfaction.
-
-**Human URL:** [https://developer.champ.aero/docs/csp-payment-generic-api/1/overview](https://developer.champ.aero/docs/csp-payment-generic-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/csp-payment-generic-api/1/overview)
-### CHAMP Cargosystems Cargospot Pickup API
-The CHAMP Cargosystems Cargospot Pickup API is a software solution that enables users to efficiently manage and coordinate the pickup of cargo shipments. This API allows users to schedule and track pickup requests, assign drivers and vehicles to specific pickups, and receive real-time updates on the status of each pickup. By automating and streamlining the pickup process, the Cargospot Pickup API helps improve operational efficiency, reduce errors, and enhance overall visibility and control over the cargo pickup process. This API is particularly useful for logistics companies, airlines, and freight forwarders looking to optimize their pickup operations and provide a seamless experience for their customers.
-
-**Human URL:** [https://developer.champ.aero/docs/csp-pickup-api-v1/1/overview](https://developer.champ.aero/docs/csp-pickup-api-v1/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/csp-pickup-api-v1/1/overview)
-### CHAMP Cargosystems Price Class API
-The CHAMP Cargosystems Price Class API is a tool that allows users to access and manage pricing information for cargo shipments. With this API, users can retrieve real-time pricing data for various transportation services and routes, enabling them to make informed decisions when calculating shipping costs and selecting the most cost-effective options for their shipments. Additionally, the API allows users to customize pricing parameters and input specific requirements, ensuring that they receive accurate and up-to-date pricing information tailored to their individual needs. Overall, the CHAMP Cargosystems Price Class API streamlines the pricing process for cargo shipments, making it easier for users to plan and execute their logistics operations efficiently.
-
-**Human URL:** [https://developer.champ.aero/docs/csp-price-class-api/1/overview](https://developer.champ.aero/docs/csp-price-class-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/csp-price-class-api/1/overview)
-### CHAMP Cargosystems Product API
-The CHAMP Cargosystems Product API is a sophisticated software solution that provides users with a seamless interface to access and manage a wide range of cargo-related services and functionalities. By leveraging this API, businesses can easily integrate their own systems with CHAMP Cargosystems' platform, enabling them to automate processes, streamline operations, and improve overall efficiency. This powerful tool enables users to gain real-time access to critical data, track shipments, manage bookings, and communicate with various stakeholders within the supply chain. In essence, the CHAMP Cargosystems Product API serves as a comprehensive gateway that empowers businesses to optimize their cargo handling processes and enhance the overall customer experience.
-
-**Human URL:** [https://developer.champ.aero/docs/csp-product-api/1/overview](https://developer.champ.aero/docs/csp-product-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/csp-product-api/1/overview)
-### CHAMP Cargosystems Publish Ad-Hoc Price Details API
-The CHAMP Cargosystems Publish Ad-Hoc Price Details API is a tool designed to provide users with the ability to quickly and easily access and disseminate real-time pricing information for cargo shipments. This API allows users to input specific details or parameters related to their shipment, such as origin and destination locations, type of goods being shipped, and desired delivery deadlines. The API then generates a comprehensive and accurate price quote based on these inputs, allowing users to make informed decisions about their shipping needs. With this API, users can access up-to-date pricing information on demand, streamlining the process of securing competitive rates for their cargo shipments.
-
-**Human URL:** [https://developer.champ.aero/docs/-csp-pricing-ad-hoc-price-events-api/1/overview](https://developer.champ.aero/docs/-csp-pricing-ad-hoc-price-events-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/-csp-pricing-ad-hoc-price-events-api/1/overview)
-### CHAMP Cargosystems Cargospot Publish Bookings API
-The CHAMP Cargosystems Cargospot Publish Bookings API is a tool designed to streamline the process of booking cargo shipments. This API allows users to publish booking information and details directly from their system to various stakeholders, such as airlines, freight forwarders, and customs authorities. By utilizing this API, users can efficiently manage and share booking data, ensuring that all parties involved in the shipment process have access to accurate and up-to-date information. Additionally, the API provides users with the ability to track and monitor bookings in real-time, enhancing transparency and visibility throughout the entire shipment lifecycle. Ultimately, the CHAMP Cargosystems Cargospot Publish Bookings API helps to optimize the booking process, improve communication between stakeholders, and enhance overall efficiency in the cargo industry.
-
-**Human URL:** [https://developer.champ.aero/docs/-csp-booking-events-api/1/overview](https://developer.champ.aero/docs/-csp-booking-events-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/-csp-booking-events-api/1/overview)
-### CHAMP Cargosystems Participant API
-The CHAMP Cargosystems Participant API is a powerful tool that allows users to access and interact with CHAMP Cargosystems' comprehensive suite of cargo management solutions. This API enables seamless integration between CHAMP Cargosystems' software and third-party applications, giving users the ability to automate workflows, streamline processes, and improve overall efficiency. By leveraging the CHAMP Cargosystems Participant API, organizations can enhance visibility, track shipments in real-time, manage inventory, and optimize supply chain operations. With its user-friendly interface and robust functionality, the CHAMP Cargosystems Participant API empowers users to take full advantage of CHAMP Cargosystems' industry-leading technology and services.
-
-**Human URL:** [https://developer.champ.aero/docs/csp-participant-events-api/1/overview](https://developer.champ.aero/docs/csp-participant-events-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/csp-participant-events-api/1/overview)
-### CHAMP Cargosystems Cargospot Scale Weight API
-CHAMP Cargosystems Cargospot Scale Weight API is a software tool that allows users to input and retrieve accurate weight measurements for cargo shipments. By integrating with existing systems, this API enables users to quickly and efficiently calculate the weight of various cargo items, ensuring that all shipments meet regulatory requirements and avoid any potential delays or penalties. The API also helps streamline the logistics process by providing real-time weight data, allowing for better planning and coordination of shipments. Overall, CHAMP Cargosystems Cargospot Scale Weight API simplifies the weight verification process and enhances the efficiency of cargo operations.
-
-**Human URL:** [https://developer.champ.aero/docs/cargospot-buildup-scale-weight-v4-api/1/overview](https://developer.champ.aero/docs/cargospot-buildup-scale-weight-v4-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/cargospot-buildup-scale-weight-v4-api/1/overview)
-### CHAMP Cargosystems Cargospot Schedule APIs
-CHAMP Cargosystems Cargospot Schedule APIs provide a comprehensive solution for airlines and other stakeholders in the air cargo industry to efficiently manage their flight schedules. These APIs enable users to access real-time information on flight schedules, including departure and arrival times, capacity availability, and route details. With seamless integration into existing systems, users can easily update and track schedule changes, improve communication and coordination between various departments, and ultimately enhance the overall efficiency and performance of their cargo operations. Additionally, the APIs can assist in optimizing cargo capacity utilization, reducing costs, and improving customer satisfaction by providing accurate and timely information to all parties involved in the shipment process.
-
-**Human URL:** [https://developer.champ.aero/docs/-cargospot-transport-means-schedules-api/1/overview](https://developer.champ.aero/docs/-cargospot-transport-means-schedules-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/-cargospot-transport-means-schedules-api/1/overview)
-### CHAMP Cargosystems Cargospot Search Sell Prices API
-The CHAMP Cargosystems Cargospot Search Sell Prices API is a tool that allows users to search and compare prices for various cargo shipping services. This API provides real-time pricing information from multiple carriers, enabling users to quickly find the best rates for their specific shipping needs. By utilizing this API, businesses can streamline their freight management processes, save time and money, and make more informed decisions when selecting a shipping provider. The Cargospot Search Sell Prices API is a valuable resource for companies in the logistics industry looking to optimize their supply chain operations and improve overall efficiency.
-
-**Human URL:** [https://developer.champ.aero/docs/cargospot-manage-sell-price-api/1/overview](https://developer.champ.aero/docs/cargospot-manage-sell-price-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/cargospot-manage-sell-price-api/1/overview)
-### CHAMP Cargosystems Cargospot Search Unit Load Devices API
-The CHAMP Cargosystems Cargospot Search Unit Load Devices API is a powerful tool that allows users to quickly and easily search for unit load devices (ULDs) within the Cargospot platform. This API provides access to a comprehensive database of ULDs, allowing users to retrieve detailed information about each device, such as its location, status, weight, and dimensions. By using the Cargospot Search ULD Devices API, customers can efficiently track and manage ULDs, streamline their cargo handling processes, and improve overall operational efficiency. This API is designed to enhance visibility and control over ULDs, ultimately helping users make more informed decisions and optimize their air cargo operations.
-
-**Human URL:** [https://developer.champ.aero/docs/csp-unit-load-devices-handling-api/1/overview](https://developer.champ.aero/docs/csp-unit-load-devices-handling-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/csp-unit-load-devices-handling-api/1/overview)
-### CHAMP Cargosystems Cargospot Track and Trace API
-The CHAMP Cargosystems Cargospot Track and Trace API is a powerful tool that allows users to track and trace their cargo shipments in real-time. By integrating this API into their systems, businesses can access detailed information about the status and location of their cargo at any given time. This API provides users with important data such as estimated arrival times, current location of the shipment, and any delays or issues along the way. With this information, companies can better manage their supply chain operations, improve customer service, and proactively address any potential problems that may arise during transit. Overall, the CHAMP Cargosystems Cargospot Track and Trace API is an invaluable tool for businesses looking to optimize their shipping logistics and ensure the safe and timely delivery of their goods.
-
-**Human URL:** [https://developer.champ.aero/docs/csp-track-and-trace-api-v1-standard/1/overview](https://developer.champ.aero/docs/csp-track-and-trace-api-v1-standard/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/csp-track-and-trace-api-v1-standard/1/overview)
-### CHAMP Cargosystems Cargospot Update Dimension Details for a Shipment API
-The CHAMP Cargosystems Cargospot Update Dimension Details for a Shipment API is a tool that allows users to easily update the dimension details of a shipment within the Cargospot system. This API enables users to input accurate dimensions for cargo shipments, ensuring that they are properly categorized and handled according to their size and weight specifications. By providing a streamlined process for updating dimension details, this API helps to improve the efficiency and accuracy of shipment management, ultimately leading to smoother and more reliable logistics operations.
-
-**Human URL:** [https://developer.champ.aero/docs/cargospot-update-dimension-details-for-a-shipment-api/1/overview](https://developer.champ.aero/docs/cargospot-update-dimension-details-for-a-shipment-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/cargospot-update-dimension-details-for-a-shipment-api/1/overview)
-### CHAMP Cargosystems Cargospot Update Driver Details For Acceptance API
-The CHAMP Cargosystems Cargospot Update Driver Details For Acceptance API is a tool that allows users to update driver details in the Cargospot system to ensure smooth acceptance of cargo shipments. This API enables users to easily input and modify information such as driver name, contact details, and vehicle information, providing accurate and up-to-date data for effective logistics management. By streamlining the process of updating driver details, this API helps to enhance operational efficiency and ensure that shipments are properly accepted and processed in a timely manner. Overall, the CHAMP Cargosystems Cargospot Update Driver Details For Acceptance API plays a crucial role in optimizing the acceptance process and facilitating seamless cargo transportation.
-
-**Human URL:** [https://developer.champ.aero/docs/cargospot-driver-update-for-acceptance-api/1/overview](https://developer.champ.aero/docs/cargospot-driver-update-for-acceptance-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/cargospot-driver-update-for-acceptance-api/1/overview)
-### CHAMP Cargosystems Cargospot Update Flight and Truck Capacity API
-The CHAMP Cargosystems Cargospot Update Flight and Truck Capacity API is a software tool that allows users to efficiently manage and update flight and truck capacity information in real-time. This API enables users to track the availability of flights and trucks, schedule shipments accordingly, and optimize the use of transportation resources. By providing up-to-date information on capacity levels, this API helps companies in the transportation and logistics industry streamline their operations, reduce costs, and improve overall efficiency. With the CHAMP Cargosystems Cargospot Update Flight and Truck Capacity API, companies can make informed decisions and ensure that their cargo is transported in a timely and cost-effective manner.
-
-**Human URL:** [https://developer.champ.aero/docs/csp-transport-means-api-v1-standard/1/overview](https://developer.champ.aero/docs/csp-transport-means-api-v1-standard/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/csp-transport-means-api-v1-standard/1/overview)
-### CHAMP Cargosystems Cargospot Update ULD Acceptance Details API
-The CHAMP Cargosystems Cargospot Update ULD Acceptance Details API is a tool that allows users to update and track the details of Unit Load Devices (ULD) that are accepted for transportation in the cargo spot system. This API provides real-time information on the status of ULDs, including their location, weight, and contents. By using this API, cargo handlers and transportation companies can ensure that ULDs are loaded and transported efficiently and accurately, reducing the risk of discrepancies and delays in the cargo handling process. Additionally, the API helps to streamline communication and coordination between different stakeholders involved in the transportation of ULDs, ultimately improving operational efficiency and customer satisfaction.
-
-**Human URL:** [https://developer.champ.aero/docs/cargospot-update-uld-acceptance-details-api/1/overview](https://developer.champ.aero/docs/cargospot-update-uld-acceptance-details-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/cargospot-update-uld-acceptance-details-api/1/overview)
-### CHAMP Cargosystems Cargospot Update Warehouse Location API
-Certainly! The CHAMP Cargosystems Cargospot Update Warehouse Location API is a tool that allows users to update and manage warehouse locations within the Cargospot system. This API streamlines the process of tracking and organizing warehouse data, making it easier for users to access real-time information on the location and status of their cargo. By providing a centralized platform for managing warehouse locations, this API helps improve efficiency, transparency, and accuracy in the logistics and supply chain management process. Overall, the CHAMP Cargosystems Cargospot Update Warehouse Location API is a valuable tool for businesses looking to optimize their warehouse operations and enhance their overall productivity.
-
-**Human URL:** [https://developer.champ.aero/docs/csp-warehouse-api/1/overview](https://developer.champ.aero/docs/csp-warehouse-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/csp-warehouse-api/1/overview)
-### CHAMP Cargosystems TGS House Air Waybill Declarations API
-The CHAMP Cargosystems TGS House Air Waybill Declarations API is a software tool that allows users to easily create and manage air waybill declarations for cargo shipments. This API streamlines the process of generating required documentation for air freight shipments by providing a user-friendly interface for inputting and organizing necessary information. Users can quickly generate accurate and compliant air waybill declarations, reducing the risk of errors or delays in the shipping process. Additionally, the API can be integrated with existing cargo management systems to further streamline workflows and improve efficiency in managing air cargo shipments.
-
-**Human URL:** [https://developer.champ.aero/docs/tgs-hawb-declarations-api/1/overview](https://developer.champ.aero/docs/tgs-hawb-declarations-api/1/overview)
-
-
-#### Tags:
-
- - No Tags
-
-#### Properties
-
-- [Documentation](https://developer.champ.aero/docs/tgs-hawb-declarations-api/1/overview)
-
-## Common Properties
-
-- [Portal](https://developer.champ.aero/)
-- [GettingStarted](https://developer.champ.aero/get-started)
-- [Partners](https://developer.champ.aero/api-partner-program-for-cargospot)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** info@apievangelist.com
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/champ/](https://apis.io/providers/champ/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for CHAMP Cargosystems: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/champ/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
